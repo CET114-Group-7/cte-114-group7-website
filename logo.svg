@@ -1,0 +1,31 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Group 7 logo">
+  <defs>
+    <style>
+      .ink { fill: #e8edf2; }
+      .cyan { stroke: #5eead4; }
+      .amber { fill: #ffb86b; }
+    </style>
+  </defs>
+
+  <!-- background panel -->
+  <rect x="1" y="1" width="118" height="118" fill="#0d1b2a" stroke="#1e3a5f" stroke-width="1.5"/>
+
+  <!-- corner brackets, echoing the site's .panel signature -->
+  <path d="M 8 20 L 8 8 L 20 8" fill="none" stroke="#5eead4" stroke-width="2.5"/>
+  <path d="M 100 112 L 112 112 L 112 100" fill="none" stroke="#5eead4" stroke-width="2.5"/>
+
+  <!-- circuit traces -->
+  <path d="M 12 60 L 34 60 L 42 48" fill="none" class="cyan" stroke-width="1.5" opacity="0.7"/>
+  <path d="M 108 60 L 86 60 L 78 72" fill="none" class="cyan" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="12" cy="60" r="3" fill="#5eead4"/>
+  <circle cx="108" cy="60" r="3" fill="#5eead4"/>
+
+  <!-- the "7", drawn as a single trace stroke to match the circuit motif -->
+  <path d="M 44 38 L 78 38 L 54 84" fill="none" stroke="#e8edf2" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter"/>
+
+  <!-- signal node on the diagonal of the 7 -->
+  <circle cx="64" cy="60" r="3.5" class="amber"/>
+
+  <!-- reference tag -->
+  <text x="60" y="106" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#7c93ac" letter-spacing="1">GROUP</text>
+</svg>
