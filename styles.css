@@ -1,4 +1,3 @@
-/* Group 7 - CTE 114 website styles */
 
 body {
   margin: 0;
@@ -23,7 +22,6 @@ a:hover {
   padding: 0 20px;
 }
 
-/* header and nav */
 header {
   background-color: #ffffff;
   border-bottom: 1px solid #e2e2e2;
@@ -112,7 +110,6 @@ header {
   }
 }
 
-/* footer */
 footer {
   border-top: 1px solid #e2e2e2;
   margin-top: 60px;
@@ -128,7 +125,6 @@ footer .wrap {
   gap: 8px;
 }
 
-/* headings */
 h1, h2, h3 {
   color: #1c1c1c;
   font-family: 'Poppins', Arial, sans-serif;
@@ -161,7 +157,6 @@ h1, h2, h3 {
   letter-spacing: 0.03em;
 }
 
-/* buttons */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -182,7 +177,6 @@ h1, h2, h3 {
   color: #ffffff;
 }
 
-/* hero */
 .hero {
   background-color: #ffffff;
   padding: 60px 0 40px;
@@ -202,7 +196,6 @@ h1, h2, h3 {
   display: none;
 }
 
-/* simple grid layout */
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -235,7 +228,6 @@ section.tight {
   padding: 22px 0;
 }
 
-/* boxes */
 .panel {
   border: 1px solid #e6e6e6;
   border-radius: 10px;
@@ -243,7 +235,6 @@ section.tight {
   background-color: #ffffff;
 }
 
-/* team member box */
 .member {
   border: 1px solid #e6e6e6;
   border-radius: 10px;
@@ -280,7 +271,6 @@ section.tight {
   font-size: 13px;
 }
 
-/* skill/project cards */
 .card h3 {
   font-size: 17px;
   margin-bottom: 6px;
@@ -308,7 +298,6 @@ section.tight {
   justify-content: space-between;
 }
 
-/* stats */
 .stats {
   display: flex;
   flex-wrap: wrap;
@@ -335,7 +324,6 @@ section.tight {
   color: #777777;
 }
 
-/* contact form */
 .form-row {
   margin-bottom: 16px;
 }

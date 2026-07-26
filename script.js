@@ -1,6 +1,3 @@
-// Group 7 - simple site script
-
-// mobile menu toggle
 var toggleBtn = document.querySelector('.navtoggle');
 var navLinks = document.querySelector('.navlinks');
 
@@ -10,7 +7,6 @@ if (toggleBtn) {
   });
 }
 
-// contact form (demo only, does not really send)
 var contactForm = document.querySelector('#contact-form');
 
 if (contactForm) {
