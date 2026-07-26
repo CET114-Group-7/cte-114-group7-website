@@ -3,7 +3,11 @@ var navLinks = document.querySelector('.navlinks');
 
 if (toggleBtn) {
   toggleBtn.addEventListener('click', function () {
-    navLinks.classList.toggle('open');
+    var isOpen = navLinks.classList.toggle('open');
+    var icon = toggleBtn.querySelector('i');
+    if (icon) {
+      icon.className = isOpen ? 'bi bi-x-lg' : 'bi bi-list';
+    }
   });
 }
 
